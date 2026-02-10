@@ -44,9 +44,9 @@ export default function Footer() {
               Connect
             </h4>
             <ul className="space-y-2">
-              <li><a href="#" target="_blank" className="hover:text-white transition">LinkedIn</a></li>
-              <li><a href="#" target="_blank" className="hover:text-white transition">Twitter / X</a></li>
-              <li><a href="#" target="_blank" className="hover:text-white transition">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/olakunle-fafure" target="_blank" className="hover:text-white transition">LinkedIn</a></li>
+              <li><a href="https://x.com/datechchief" target="_blank" className="hover:text-white transition">Twitter / X</a></li>
+              <li><a href="https://github.com/MNBYTE/" target="_blank" className="hover:text-white transition">GitHub</a></li>
             </ul>
           </div>
         </div>

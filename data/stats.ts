@@ -11,7 +11,7 @@ export const stats = [
   },
   {
     label: "Years Experience",
-    value: 3,
+    value: 2,
     suffix: "+"
   },
   {

@@ -12,7 +12,7 @@ export const personalInfo = {
     github: "https://github.com/MNBYTE",
     linkedin: "https://linkedin.com/in/fafureolakunle",
     twitter: "https://twitter.com/datechchief",
-    resume: "/resume.pdf"
+    resume: "/assets/FAFURE-OLAKUNLE.pdf"
   },
   
   typingTexts: [
