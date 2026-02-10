@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const config = {
+  darkMode: "class", // <-- enable class-based dark mode
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",

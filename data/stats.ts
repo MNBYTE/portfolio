@@ -1,5 +1,22 @@
 export const stats = [
-  { label: "Projects", value: 24 },
-  { label: "Clients", value: 18 },
-  { label: "Years Experience", value: 5 },
+  {
+    label: "Projects Completed",
+    value: 10,
+    suffix: "+"
+  },
+  {
+    label: "Happy Clients",
+    value: 3,
+    suffix: "+"
+  },
+  {
+    label: "Years Experience",
+    value: 3,
+    suffix: "+"
+  },
+  {
+    label: "Code Commits",
+    value: 1000,
+    suffix: "+"
+  }
 ];

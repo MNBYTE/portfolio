@@ -1,39 +1,50 @@
+// context/ThemeContext.tsx
 "use client";
-import { createContext, useContext, useState, ReactNode } from "react";
 
-/* ---------- TYPES ---------- */
-type Theme = "dark" | "light";
+import { createContext, useContext, useEffect, useState, ReactNode } from "react";
+
+type Theme = "light" | "dark";
 
 interface ThemeContextType {
   theme: Theme;
   toggleTheme: () => void;
 }
 
-/* ---------- CONTEXT ---------- */
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-/* ---------- PROVIDER ---------- */
-export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("dark");
+export const ThemeProvider = ({ children }: { children: ReactNode }) => {
+  const [theme, setTheme] = useState<Theme>("light");
+
+  // On mount, check localStorage or system preference
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme") as Theme | null;
+    if (savedTheme) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setTheme(savedTheme);
+      document.documentElement.classList.toggle("dark", savedTheme === "dark");
+    } else {
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      setTheme(prefersDark ? "dark" : "light");
+      document.documentElement.classList.toggle("dark", prefersDark);
+    }
+  }, []);
 
   const toggleTheme = () => {
-    setTheme(prev => (prev === "dark" ? "light" : "dark"));
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    document.documentElement.classList.toggle("dark", newTheme === "dark");
+    localStorage.setItem("theme", newTheme);
   };
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className={theme}>{children}</div>
+      {children}
     </ThemeContext.Provider>
   );
-}
+};
 
-/* ---------- HOOK ---------- */
-export function useTheme() {
+export const useTheme = () => {
   const context = useContext(ThemeContext);
-
-  if (!context) {
-    throw new Error("useTheme must be used within a ThemeProvider");
-  }
-
+  if (!context) throw new Error("useTheme must be used within ThemeProvider");
   return context;
-}
+};
