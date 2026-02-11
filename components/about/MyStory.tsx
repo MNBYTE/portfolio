@@ -1,6 +1,6 @@
 import { FadeUp } from "@/components/common/Motion";
 import Image from "next/image";
-import AvengersImg from "@/assets/avengers.jpg";
+import AvengersImg from "@/public/assets/avengers.jpg";
 
 export default function MyStory() {
   return (
