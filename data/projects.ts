@@ -178,50 +178,53 @@ export const projects: Project[] = [
   tags: ["nextjs", "tailwindcss", "framer-motion", "vercel"]
   },
   {
-    id: 4,
-    title: "StreamEase",
-    description: "Hike All serves as a digital companion for planning and navigating outdoor activities",
-    fullDescription: "HikeAll is meant to be the world’s most popular outdoor exploration platform, connecting users to more curated trail guides. It operates on a freemium model designed to help users find their way outside through a combination of expert-verified data and community-driven content.",
-    image: "/imgs/hikeall_home.png",
-    screenshots: [
-      "/imgs/hikeall_help.png",
-      "/imgs/hikeall_log.png",
-      "/imgs/hikeall+.png",
-    ],
-    github: "https://github.com/MNBYTE/HikeAll",
-    live: "https://hike-all.vercel.app/",
-    features: [
-      "Dynamic Forecasting",
-      "Hike Trail guides",
-      "Guest Access: access trails without an account",
-      "Offline Navigation",
-    ],
-    category: "Web Applications",
-    year: 2025,
-    featured: true,
-    status: "complete",
-    stats: {
-      lines: "83.9k Lines",
-      likes: "890",
-      date: "Oct 7, 2025",
-    },
-    badges: {
-      version: "v1",
-    },
-    technologies: [
-      { name: "Angular", color: "bg-green-500" },
-      { name: "Bootstrap", color: "bg-brown" },
-      { name: "Navigation Guide Platform", color: "bg-yellow-500" },
-    ],
-    projectInfo: {
-      created: "Oct 7, 2025",
-      updated: "Dec 3, 2025",
-      category: "Web Applications",
-      subCategory: "Trail Guide & Navigation Platforms",
-      tags: ["#navigation", "#trailguide", "#userexpedition", "#angular", "#responsive"],
-    },
-    tags: []
+  id: 4,
+  title: "StreamEase",
+  description: "A modern movie discovery and streaming companion platform for exploring trending, popular, and top-rated films.",
+  fullDescription: "StreamEase is a sleek movie discovery platform designed to help users explore trending, popular, and top-rated films in one seamless interface. Built to enhance the entertainment browsing experience, it allows users to discover new movies, manage a personal watchlist, and explore detailed movie information including ratings, genres, and overviews. With a clean and responsive design, StreamEase delivers an intuitive and engaging way to navigate the world of cinema.",
+  image: "/imgs/streamease_home.png",
+  screenshots: [
+    "/imgs/streamease_watchlist.png",
+    "/imgs/streamease_discovery.png",
+    "/imgs/streamease_contact.png",
+  ],
+  github: "https://github.com/MNBYTE/HikeAll",
+  live: "https://hike-all.vercel.app/",
+  features: [
+    "Trending & Popular Movie Listings",
+    "Advanced Movie Search & Discovery",
+    "Personal Watchlist Management",
+    "Detailed Movie Information Pages",
+    "Responsive Design for Mobile & Desktop",
+    "Smooth UI Transitions & Animations"
+  ],
+  category: "Web Applications",
+  year: 2025,
+  featured: true,
+  status: "complete",
+  stats: {
+    lines: "83.9k Lines",
+    likes: "890",
+    date: "Oct 7, 2025",
   },
+  badges: {
+    version: "v1",
+  },
+  technologies: [
+    { name: "Angular", color: "bg-green-500" },
+    { name: "Bootstrap", color: "bg-brown" },
+    { name: "Movie Discovery Platform", color: "bg-yellow-500" },
+    { name: "TECHWIZ - PROJECT", color: "bg-gray-900" },
+  ],
+  projectInfo: {
+    created: "Oct 7, 2025",
+    updated: "Dec 3, 2025",
+    category: "Web Applications",
+    subCategory: "Entertainment & Streaming Platforms",
+    tags: ["#movies", "#streaming", "#watchlist", "#angular", "#responsive"],
+  },
+  tags: ["movies", "streaming", "entertainment", "watchlist"]
+},
   {
     id: 5,
     title: "StayTime",
@@ -269,7 +272,63 @@ export const projects: Project[] = [
       tags: ["#productivity", "#timer", "#nextjs", "#tailwindcss", "#framer-motion"]
     },
     tags: ["nextjs", "tailwindcss", "framer-motion", "vercel", "productivity"]
-  }
+  },
+  {
+  id: 6,
+  title: "Historical Monument",
+  description: "An immersive web showcase celebrating nine iconic world historical monuments.",
+  fullDescription: "Historical Monument Nine is a curated interactive experience that highlights nine of the world’s most fascinating historical monuments. Built with Next.js for high performance, styled with Tailwind CSS for responsive design, and enhanced with Framer Motion for smooth animations, the site guides users through monument overviews, historical facts, architectural highlights, and cultural significance. It’s designed to educate and inspire global curiosity about heritage and history.",
+  image: "/imgs/historicalmonument_home.png", // Main hero image
+  screenshots: [
+    "/imgs/historicalmonument1.png",      // List of the nine monuments
+    "/imgs/historicalmonument2.png",    // Detailed single monument view
+    "/imgs/historicalmonument3.png",
+    "/imgs/historicalmonument4.png"      // About / info section
+  ],
+  github: "https://github.com/MNBYTE/HistoricalMonument",
+  live: "https://historical-monument-nine.vercel.app/",
+  features: [
+    "Interactive monument cards with animations",
+    "Responsive UI built with Tailwind CSS",
+    "Smooth transitions using Framer Motion",
+    "Monument description pages with history and facts",
+    "Accessible navigation and mobile-friendly layout",
+    "Static and dynamic content rendering with Next.js"
+  ],
+  category: "Web Applications",
+  year: 2025,
+  featured: true,
+  status: "complete",
+  stats: {
+    lines: "9k+ Lines",     // estimated
+    likes: "150",           // placeholder for project popularity
+    date: "Dec 10, 2025"    // approximate deploy date
+  },
+  badges: {
+    version: "v1.0"
+  },
+  technologies: [
+    { name: "HTML", color: "bg-black" },
+    { name: "Bootstrap", color: "bg-teal-500" },
+    { name: "Angular Route", color: "bg-purple-500" },
+    { name: "EPROJECT", color: "bg-gray-900" }
+  ],
+  projectInfo: {
+    created: "Nov 25, 2023",
+    updated: "Dec 10, 2023",
+    category: "Web Applications",
+    subCategory: "Educational & Cultural Experiences",
+    tags: [
+      "#history",
+      "#monuments",
+      "#interactive",
+      "#html",
+      "#bootstrap",
+      "#angular"
+    ]
+  },
+  tags: ["html", "bootstrap", "angular", "history"]
+},
   // ... add screenshots similarly for other projects
 ];
 

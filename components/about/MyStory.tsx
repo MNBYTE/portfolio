@@ -1,6 +1,6 @@
 import { FadeUp } from "@/components/common/Motion";
 import Image from "next/image";
-import AvengersImg from "@/public/assets/avengers.jpg";
+import AvengersImg from "@/public/assets/pic.png";
 
 export default function MyStory() {
   return (
@@ -80,7 +80,7 @@ export default function MyStory() {
               alt="My journey"
               fill
               priority
-              className="object-cover opacity-80 transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0"
+              className="object-cover opacity-80 transition-transform duration-700 group-hover:scale-105 grayscale"
               />
 
               {/* Glass overlay */}
