@@ -188,8 +188,8 @@ export const projects: Project[] = [
     "/imgs/streamease_discovery.png",
     "/imgs/streamease_contact.png",
   ],
-  github: "https://github.com/MNBYTE/HikeAll",
-  live: "https://hike-all.vercel.app/",
+  github: "https://github.com/MNBYTE/StreamEase",
+  live: "https://stream-ease-ten.vercel.app/",
   features: [
     "Trending & Popular Movie Listings",
     "Advanced Movie Search & Discovery",
@@ -224,7 +224,7 @@ export const projects: Project[] = [
     tags: ["#movies", "#streaming", "#watchlist", "#angular", "#responsive"],
   },
   tags: ["movies", "streaming", "entertainment", "watchlist"]
-},
+  },
   {
     id: 5,
     title: "StayTime",
