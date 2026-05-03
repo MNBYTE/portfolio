@@ -84,7 +84,57 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 2,
+  id: 2,
+  title: "BTech & Co Website",
+  description:
+    "Designed and developed a modern service website focused on conversion, clarity, and structured presentation.",
+  fullDescription:
+    "BTech & Co is a professional services website built to help care providers attract enquiries, build trust, and clearly present their offerings online. I worked on the frontend architecture, animations, and interactive components using Next.js, EmailJS, Framer Motion, and modern UI patterns like bento-style layouts. The platform focuses on clean UX, performance, and conversion-driven design.",
+  image: "/imgs/btechco.png", 
+  screenshots: [
+    "/imgs/btechco_1.png",
+    "/imgs/btechco_2.png",
+    "/imgs/btechco_3.png",
+    "/imgs/btechco_4.png",
+  ],
+  tags: ["frontend", "production", "client-work"],
+  github: "https://github.com/MNBYTE/Btech-Co",
+  live: "https://www.btechco.co.uk/",
+  features: [
+    "Responsive modern UI with bento grid layouts",
+    "Smooth animations with Framer Motion",
+    "EmailJS contact form integration",
+    "Conversion-focused service pages",
+    "Optimized performance with Next.js",
+  ],
+  category: "Frontend Development",
+  year: 2025,
+  featured: true,
+  status: "complete",
+  stats: {
+    lines: "—",
+    likes: "—",
+    date: "2025",
+  },
+  badges: {
+    featured: true,
+    version: "v1.0",
+  },
+  technologies: [
+    { name: "Next.js", color: "bg-black" },
+    { name: "Framer Motion", color: "bg-purple-500" },
+    { name: "EmailJS", color: "bg-blue-500" },
+  ],
+  projectInfo: {
+    created: "2025",
+    updated: "2026",
+    category: "Web Applications",
+    subCategory: "Business Website",
+    tags: ["#nextjs", "#emailjs", "#framermotion", "#uiux"],
+  },
+  },
+  {
+    id: 3,
     title: "HikeAll",
     description: "Hike All serves as a digital companion for planning and navigating outdoor activities",
     fullDescription: "HikeAll is meant to be the world’s most popular outdoor exploration platform, connecting users to more curated trail guides. It operates on a freemium model designed to help users find their way outside through a combination of expert-verified data and community-driven content.",
@@ -129,7 +179,7 @@ export const projects: Project[] = [
     tags: []
   },
   {
-  id: 3,
+  id: 4,
   title: "The Village Well",
   description: "A nonprofit platform focused on empowering communities through sustainable development, clean water access, education, and livelihood programs.",
   fullDescription: "The Village Well is a nonprofit initiative dedicated to providing long‑term sustainable solutions for underserved communities around the world. It focuses on clean water access by drilling wells and installing filtration systems, educational programs, healthcare, livelihood training, and environmental action to help families thrive and build self‑reliant futures. The platform highlights impact metrics such as wells built, lives impacted, and communities served, and invites visitors to donate or get involved to help drive positive change globally.",  
@@ -178,7 +228,7 @@ export const projects: Project[] = [
   tags: ["nextjs", "tailwindcss", "framer-motion", "vercel"]
   },
   {
-  id: 4,
+  id: 5,
   title: "StreamEase",
   description: "A modern movie discovery and streaming companion platform for exploring trending, popular, and top-rated films.",
   fullDescription: "StreamEase is a sleek movie discovery platform designed to help users explore trending, popular, and top-rated films in one seamless interface. Built to enhance the entertainment browsing experience, it allows users to discover new movies, manage a personal watchlist, and explore detailed movie information including ratings, genres, and overviews. With a clean and responsive design, StreamEase delivers an intuitive and engaging way to navigate the world of cinema.",
@@ -226,7 +276,7 @@ export const projects: Project[] = [
   tags: ["movies", "streaming", "entertainment", "watchlist"]
   },
   {
-    id: 5,
+    id: 6,
     title: "StayTime",
     description: "A productivity‑focused time tracking and session timer app to help users stay focused and manage work/break intervals.",
     fullDescription: "StayTime is a sleek timer and productivity tool designed to help users track time, structure focused work sessions, and improve daily productivity. Built with modern web technologies including Next.js, Tailwind CSS, and Framer Motion, StayTime features intuitive controls for starting/stopping timers, visual feedback for session progress, and smooth animated transitions to enhance user experience. It is ideal for students, professionals, and anyone looking to manage time more effectively.",
@@ -273,8 +323,8 @@ export const projects: Project[] = [
     },
     tags: ["nextjs", "tailwindcss", "framer-motion", "vercel", "productivity"]
   },
-  {
-  id: 6,
+  {cmd
+  id: 7,
   title: "Historical Monument",
   description: "An immersive web showcase celebrating nine iconic world historical monuments.",
   fullDescription: "Historical Monument Nine is a curated interactive experience that highlights nine of the world’s most fascinating historical monuments. Built with Next.js for high performance, styled with Tailwind CSS for responsive design, and enhanced with Framer Motion for smooth animations, the site guides users through monument overviews, historical facts, architectural highlights, and cultural significance. It’s designed to educate and inspire global curiosity about heritage and history.",
