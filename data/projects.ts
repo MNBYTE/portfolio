@@ -323,7 +323,7 @@ export const projects: Project[] = [
     },
     tags: ["nextjs", "tailwindcss", "framer-motion", "vercel", "productivity"]
   },
-  {cmd
+  {
   id: 7,
   title: "Historical Monument",
   description: "An immersive web showcase celebrating nine iconic world historical monuments.",
