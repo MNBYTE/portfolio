@@ -69,18 +69,19 @@ export const designProjects: DesignProject[] = [
       "A data-rich administration dashboard designed to help teams monitor operations, users, transactions, and platform activity.",
     fullDescription:
       "A web-based admin dashboard for SKYP3R, designed around operational visibility and efficient decision-making. The interface brings key metrics, users, transactions, activity, and management tools into a structured workspace without overwhelming administrators.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    image: "/imgs/admin2.png",
+
     gallery: [
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
-      "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&q=80",
-      "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&q=80",
+    "/imgs/admin1.png",
+    "/imgs/admin2.png",
+    "/imgs/admin3.png",
+    "/imgs/admin4.png",
     ],
     tools: ["Figma", "FigJam", "Illustrator"],
     role: "Product Designer",
     duration: "5 weeks",
     year: 2026,
-    behance: "#",
+    behance: "https://www.figma.com/design/zmVImktiWPWhFkey3PwBcj/UIUX?node-id=43-2&t=Bo3OBpmrk9n51gho-1",
     problem:
       "Administrators often need to monitor several areas of a digital product at once. Without a clear hierarchy, dashboards can become dense collections of numbers, tables, and controls that make it difficult to identify what needs attention.",
     solution:
