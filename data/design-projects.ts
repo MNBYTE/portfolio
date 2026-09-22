@@ -40,7 +40,7 @@ export const designProjects: DesignProject[] = [
     role: "Product Designer",
     duration: "4 weeks",
     year: 2026,
-    behance: "#",
+    behance: "https://www.figma.com/design/zmVImktiWPWhFkey3PwBcj/UIUX?node-id=238-2&t=Bo3OBpmrk9n51gho-1",
     problem:
       "Digital banking involves several high-trust moments — creating an account, completing KYC, sending money, managing cards, and confirming financial transactions. The challenge was to make these flows feel straightforward while giving users enough feedback and reassurance at every critical step.",
     solution:
@@ -120,7 +120,7 @@ export const designProjects: DesignProject[] = [
     role: "Product Designer",
     duration: "5 weeks",
     year: 2026,
-    behance: "#",
+    behance: "https://www.figma.com/design/zmVImktiWPWhFkey3PwBcj/UIUX?node-id=1-2&t=Bo3OBpmrk9n51gho-1",
     problem:
       "Traditional checkout can introduce unnecessary waiting and friction, especially during busy shopping periods. A self-checkout experience needs to make scanning, reviewing the cart, paying, and confirming the purchase feel fast while still giving shoppers confidence that everything was processed correctly.",
     solution:
