@@ -99,6 +99,12 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
+              href="/design"
+              className="hover:text-white transition-colors duration-200 font-medium"
+            >
+              Design
+            </Link>
+            <Link
               href="/contact"
               className="hover:text-white transition-colors duration-200 font-medium"
             >
@@ -205,6 +211,19 @@ export default function Navbar() {
               "
             >
               Projects
+            </Link>
+            <Link
+              href="/design"
+              onClick={closeMenu}
+              className="
+                block px-4 py-3 rounded-xl
+                text-white/80 hover:text-white
+                hover:bg-white/10
+                transition-all duration-200
+                font-medium
+              "
+            >
+              Design
             </Link>
             <Link
               href="/contact"
